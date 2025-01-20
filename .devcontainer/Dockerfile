@@ -28,8 +28,8 @@ COPY 99-usb-uart.rules /etc/udev/rules.d
 #    mknod /dev/ttyUSB0 c 188 0 && \
 #    chmod 666 /dev/ttyUSB0
 
- COPY entrypoint.sh /
- COPY setusb.sh /
+# COPY entrypoint.sh /
+# COPY setusb.sh /
 
 # Assign the RemoteUser to the dialout group to get access to the USB port
 # RUN usermod -a -G dialout vscode
