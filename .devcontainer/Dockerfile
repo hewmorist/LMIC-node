@@ -34,5 +34,4 @@ COPY 99-usb-uart.rules /etc/udev/rules.d
 # Assign the RemoteUser to the dialout group to get access to the USB port
 # RUN usermod -a -G dialout vscode
 
-
 ENTRYPOINT ["/entrypoint.sh"]
