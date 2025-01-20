@@ -18,22 +18,7 @@
 		
 	],
 	"customizations": {
-		"vscode": {
-			"settings": {
-			
-			},
-			"extensions": [
-				"ms-vscode.cpptools"
-			]
-		},
-		"codespaces": {
-			"settings": {
-			
-			},
-			"extensions": [
-				"ms-vscode.cpptools"
-			]
-		}
+		
 	},
 	
 	"runArgs": ["--privileged"],
